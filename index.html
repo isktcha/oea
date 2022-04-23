@@ -1,0 +1,564 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!--------- meta links--------- -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!---------- css link ------------->
+    <link rel="stylesheet" href="styling/sheet.css">
+    <!-- icons links -->
+    <link rel="stylesheet" href="styling/css/all.min.css">
+    <link rel="stylesheet" href="styling/mediaQuery.css">
+
+    <title>OSMben-social Resposive Social Media Website Using HTMl & Css ,Js</title>
+</head>
+<body>
+    <nav>
+      <div class="container">
+            <h2 class="logo">
+                OSMben
+            </h2>
+            <div class="search-box">
+                <i class="fas fa-search"></i>
+                <input type="search" placeholder="Search for creators,inspiration and projects">
+            </div>
+            <div class="create">
+                <label for="create-post" class="btn btn-primary">Create</label><!--this is a button that will take you to another inpute-->
+                <div class="profile-photo">
+                    <img src="imgs/person2.jpg" alt="">
+                </div>
+            </div>
+      </div>
+    </nav>
+
+    <!-- -------------------------------------------MAIN ----------------------------------------------------- -->
+    <main>
+        <div class="container">
+            <!-------------------------./left----------------------->
+            <div class="left">
+                <a class="profile">
+                    <div class="profile-photo">
+                        <img src="imgs/person2.jpg">
+                    </div>
+                    <div class="handle">
+                        <h4>OSMben</h4>
+                        <p class="text-muted">
+                            @OSMben
+                        </p>
+                    </div>
+                </a>    
+                <!--------------------SIDE BAR-------------------->
+                <div class="sidebar">
+                    <a class="menu-items active" id="top">
+                        <span> <i class="fas fa-home"></i></span><h3>home</h3>
+                    </a>
+                    <a class="menu-items">
+                        <span> <i class="fas fa-compass"></i></span><h3>explore</h3>
+                    </a>
+                    <a class="menu-items" id="notification" >
+                        <span> <i class="fas fa-bell"><small class="notification-count" >4+</small></i></span><h3>notification</h3>
+                     <!-- ---------------here a pop up (dropdown)------------------------- -->
+                        <div class="notification-pop">
+                            <div>
+                                <div class="profile-photo">
+                                    <img src="imgs/person1.jpg">
+                                </div>
+                                <div class="notification-body">
+                                    <b>Hamza Lklb</b>accepted this zamel
+                                    <small class="text-muted">1 DAY AGO</small>
+                                </div>
+                            </div>
+                            <div>
+                                <div class="profile-photo">
+                                    <img src="imgs/person-3.jpg">
+                                </div>
+                                <div class="notification-body">
+                                    <b>Abdel4afor Shotgun</b>accepted this zamel
+                                    <small class="text-muted">2 DAY AGO</small>
+                                </div>
+                            </div>
+                            <div>
+                                <div class="profile-photo">
+                                    <img src="imgs/person-andro4.jpg">
+                                </div>
+                                <div class="notification-body">
+                                    <b>Hmadi Dhmani</b>accepted this zamel
+                                    <small class="text-muted">30 min AGO</small>
+                                </div>
+                            </div>
+                            <div>
+                                <div class="profile-photo">
+                                    <img src="imgs/person-5.jpg">
+                                </div>
+                                <div class="notification-body">
+                                    <b>Andro Na9s</b>accepted this zamel
+                                    <small class="text-muted">10 min AGO</small>
+                                </div>
+                            </div>
+                            <div>
+                                <div class="profile-photo">
+                                    <img src="imgs/pinto.jpg">
+                                </div>
+                                <div class="notification-body">
+                                    <b>Toto ol NFT</b>accepted this zamel
+                                    <small class="text-muted">100 year AGO</small>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                    <a class="menu-items" id="massages-notification">
+                        <span> <i class="fas fa-envelope"><small class="notification-count">5</small></i></span><h3>messages</h3>
+                    </a>
+                    <a class="menu-items" >
+                        <span> <i class="fas fa-bookmark "></i></span><h3>bookmarks</h3>
+                    </a>
+                    <a class="menu-items" >
+                        <span> <i class="fas fa-chart-line"></i></span><h3>analytics</h3>
+                    </a>
+                    <a class="menu-items" id='theme'>
+                        <span> <i class="fas fa-palette"></i></span><h3>theme</h3>
+                    </a>
+                    <a class="menu-items" >
+                        <span> <i class="fas fa-cog"></i></span><h3>settings</h3>
+                    </a>
+                </div><!--./sidebar-->
+                
+                <!-- ---------------------end the SIDEBAR -->
+                <label for="create-post" class="btn btn-primary">Create-Post</label>
+            </div>
+            <!-------------------------./middle----------------------->
+          
+          
+          
+            <div class="middle">
+               <!-- -------------STORIES--------------- -->
+               <div class="stories">
+                    <div class="story">
+                        <div class="profile-photo">
+                            <img src="imgs/person2.jpg">
+                        </div>
+                        <p class="name">
+                            Ossama Ben
+                        </p>
+                    </div>
+                    <div class="story">
+                        <div class="profile-photo">
+                            <img src="imgs/person-3.jpg">
+                        </div>  
+                        <p class="name">
+                        Med Paptin 
+                        </p>
+                    </div>
+                    <div class="story">
+                        <div class="profile-photo">
+                            <img src="imgs/person1.jpg">
+                        </div>
+                        <p class="name">
+                            Hamza Ben
+                        </p>
+                    </div>
+                    <div class="story">
+                        <div class="profile-photo">
+                            <img src="imgs/person-4.jpg">
+                        </div>
+                        <p class="name">
+                            Andor Graphiy
+                        </p>
+                    </div>
+                    <div class="story">
+                        <div class="profile-photo">
+                            <img src="imgs/person-5.jpg">
+                        </div>
+                        <p class="name">
+                            Abdo Graphiy 
+                        </p>
+                    </div>
+                    <div class="story">
+                        <div class="profile-photo">
+                            <img src="imgs/person2.jpg">
+                        </div>
+                        <p class="name">
+                            Samawi nadi
+                        </p>
+                    </div>
+               </div>
+               <!----------------- END OF STORIES------------------------ -->
+               <form class="create-post">
+                   <div class="profile-photo">
+                       <img src="imgs/person2.jpg">
+                   </div>
+                   <input type="text" placeholder="what's in your mind ?" id="create-post">
+                   <input type="submit" value="Post" class="btn btn-primary">
+               </form>
+               <!-- -------------------FEEDS----------------- -->
+               <div class="feeds">
+                   <div class="feed">
+                       <div class="head">
+                           <div class="user">
+                               <div class="profile-photo">
+                                   <img src="imgs/story5.jpg">
+                               </div>
+                               <div class="info">
+                                   <h3>OssamaBen</h3>
+                                   <small>Ait Ourir,10 MIN AGO</small>
+                               </div>
+                           </div>
+                           <span class="edit"><i class="fas fa-ellipsis-h"></i></span>
+                       </div>
+                       <!-- the main pic -->
+                       <div class="photo">
+                           <img src="imgs/pc-img.jpg">
+                       </div>
+
+                       <div class="action-button">
+                           <div class="interation-button">
+                            <span class="heart"><i class="fas fa-heart"></i></span> 
+                            <span class="comt"><i class="fas fa-comments"></i></span>                          
+                            <span class="share"><i class="fas fa-share-alt"></i></span>                          
+                           </div>
+                           <div class="bookmark">
+                            <span><i class="fas fa-bookmark "></i></span>
+                           </div>
+                       </div>
+                       
+                       <div class="liked-by">
+                           <span><img src="imgs/person1.jpg"></span>
+                           <span><img src="imgs/person-5.jpg"></span>
+                           <span><img src="imgs/person-4.jpg"></span>
+                           <p>Liked by <b>HAMZA</b> and <b>232 others</b> </p>
+                       </div>
+                        <div class="caption">
+                            <p><b>oussama</b>Lorem ipsum dolor sit amet
+                            <span class="hash-tag">#Programming</span></p>
+                        </div>
+                        <div class="comments text-muted">View all 144 comments</div>
+                   </div>
+                   <div class="feed">
+                    <div class="head">
+                        <div class="user">
+                            <div class="profile-photo">
+                                <img src="imgs/story-4.jpg">
+                            </div>
+                            <div class="info">
+                                <h3>ANdro</h3>
+                                <small>Ait Ourir, 1h AGO</small>
+                            </div>
+                        </div>
+                        <span class="edit"><i class="fas fa-ellipsis-h"></i></span>
+                    </div>
+                    <!-- the main pic -->
+                    <div class="photo">
+                        <img src="imgs/developer-img.jpg">
+                    </div>
+
+                    <div class="action-button">
+                        <div class="interation-button">
+                         <span class="heart"><i class="fas fa-heart"></i></span> 
+                         <span class="comt"><i class="fas fa-comments"></i></span>                          
+                         <span class="share"><i class="fas fa-share-alt"></i></span>                          
+                        </div>
+                        <div class="bookmark">
+                         <span><i class="fas fa-bookmark "></i></span>
+                        </div>
+                    </div>
+                    
+                    <div class="liked-by">
+                        <span><img src="imgs/person-4.jpg"></span>
+                        <span><img src="imgs/person1.jpg"></span>
+                        <span><img src="imgs/person-5.jpg"></span>
+                        <p>Liked by <b>Abdelkbir</b> and <b>123 others</b> </p>
+                    </div>
+                     <div class="caption">
+                         <p><b>Andro</b>Lorem ipsum dolor sit amet
+                         <span class="hash-tag">#UI/UX desgin</span></p>
+                     </div>
+                     <div class="comments text-muted">View all 14 comments</div>
+                </div>
+                <div class="feed">
+                    <div class="head">
+                        <div class="user">
+                            <div class="profile-photo">
+                                <img src="imgs/person1.jpg">
+                            </div>
+                            <div class="info">
+                                <h3>HAMZA</h3>
+                                <small>Ait Ourir,  2 DAYS AGO</small>
+                            </div>
+                        </div>
+                        <span class="edit"><i class="fas fa-ellipsis-h"></i></span>
+                    </div>
+                    <!-- the main pic -->
+                    <div class="photo">
+                        <img src="imgs/character.jpg">
+                    </div>
+
+                    <div class="action-button">
+                        <div class="interation-button">
+                            <span class="heart"><i class="fas fa-heart"></i></span> 
+                            <span class="comt"><i class="fas fa-comments"></i></span>                          
+                            <span class="share"><i class="fas fa-share-alt"></i></span>                           
+                        </div>
+                        <div class="bookmark">
+                         <span><i class="fas fa-bookmark "></i></span>
+                        </div>
+                    </div>
+                    
+                    <div class="liked-by">
+                        <span><img src="imgs/person1.jpg"></span>
+                        <span><img src="imgs/person-5.jpg"></span>
+                        <span><img src="imgs/person-4.jpg"></span>
+                        <p>Liked by <b>OM AR</b> and <b>876 others</b> </p>
+                    </div>
+                     <div class="caption">
+                         <p><b>oussama</b>Lorem ipsum dolor sit amet
+                         <span class="hash-tag">#free fire</span></p>
+                     </div>
+                     <div class="comments text-muted">View all 144 comments</div>
+                </div>
+                <div class="feed">
+                    <div class="head">
+                        <div class="user">
+                            <div class="profile-photo">
+                                <img src="imgs/prophoto.jpg">
+                            </div>
+                            <div class="info">
+                                <h3>HO SSAM</h3>
+                                <small>Ait Ourir, JUST NOW</small>
+                            </div>
+                        </div>
+                        <span class="edit"><i class="fas fa-ellipsis-h"></i></span>
+                    </div>
+                    <!-- the main pic -->
+                    <div class="photo">
+                        <img src="imgs/post.jpg">
+                    </div>
+
+                    <div class="action-button">
+                        <div class="interation-button">
+                            <span class="heart"><i class="fas fa-heart"></i></span> 
+                            <span class="comt"><i class="fas fa-comments"></i></span>                          
+                            <span class="share"><i class="fas fa-share-alt"></i></span>                           
+                        </div>
+                        <div class="bookmark">
+                         <span><i class="fas fa-bookmark "></i></span>
+                        </div>
+                    </div>
+                    
+                    <div class="liked-by">
+                        <span><img src="imgs/person1.jpg"></span>
+                        <span><img src="imgs/person-5.jpg"></span>
+                        <span><img src="imgs/person-4.jpg"></span>
+                        <p>Liked by <b>HAMZA</b> and <b>232 others</b> </p>
+                    </div>
+                     <div class="caption">
+                         <p><b>oussama</b>Lorem ipsum dolor sit amet
+                         <span class="hash-tag">#lifeStyle  </span></p>
+                     </div>
+                     <div class="comments text-muted">View all 144 comments</div>
+                </div>
+               </div>
+                <div id="refrech">
+                    <h4>Click To see More Items</h4>
+                </div>
+            </div>
+
+
+
+            <!-------------------------./right----------------------->
+            <div class="right">
+                <div class="messages">
+                    <div class="heading">
+                        <h4>Messages</h4>
+                        <i class="fas fa-edit"></i>
+                    </div>
+                    <!----------------SEARCH BAR----------------- -->
+                    <div class="search-box">
+                        <i class="fas fa-search"></i>
+                        <input type="search" placeholder="search messages" id="message-search">
+                    </div>
+                    <!----------------MESSAGES CATEGORY----------------- -->
+                    <div class="category">
+                        <h6 class="active">Primary</h6>
+                        <h6>General</h6>
+                        <h6 class="messages-requests">Requests(5)</h6>
+                    </div>
+                    <!----------------MESSAGES CATEGORY----------------- -->
+                    <div class="message">
+                        <div class="profile-photo">
+                            <img src="imgs/story-3.jpg">
+                        </div>
+                        <div class="message-body">
+                            <h5>John Deo</h5>
+                            <p class="text-muted">manzakin ahya</p>
+                        </div>
+                    </div>
+                    <div class="message">
+                        <div class="profile-photo">
+                            <img src="imgs/story-4.jpg">
+                            <div class="active"></div>
+                        </div>
+                        <div class="message-body">
+                            <h5>Elbnija</h5>
+                            <p class="text-bold">2 new messages</p>
+                        </div>
+                    </div>
+                    <div class="message">
+                        <div class="profile-photo">
+                            <img src="imgs/pinto.jpg" >
+                        </div>
+                        <div class="message-body">
+                            <h5>pinto noba</h5>
+                            <p class="text-bold">l3b ba9 tlja asahbi</p>
+                        </div>
+                    </div>
+                    <div class="message">
+                        <div class="profile-photo">
+                            <img src="imgs/story3.jpg">
+                        </div>
+                        <div class="message-body">
+                            <h5>XprodS2</h5>
+                            <p class="text-muted">tla rin kran room</p>
+                        </div>
+                    </div>
+                    <div class="message">
+                        <div class="profile-photo">
+                            <img src="imgs/story-1.jpg">
+                            <div class="active"></div>
+                        </div>
+                        <div class="message-body">
+                            <h5>lmodamir232</h5>
+                            <p class="text-bold">L3bwa s shotgun a4zamla</p>
+                        </div>
+                    </div>
+                    <div class="message">
+                        <div class="profile-photo">
+                            <img src="imgs/story6.jpg">
+                            <div class="active"></div>
+                        </div>
+                        <div class="message-body">
+                            <h5>9atil dajaj</h5>
+                            <p class="text-bold">ahya zrid al3b ff</p>
+                        </div>
+                    </div>
+                </div>
+                <!-------------------- END OF MESSAGES---------------------- -->
+
+
+                <!-------------------- FRIENDS REQUESTS---------------------- -->
+
+                <div class="friend-requests">
+                    <h4>Requests</h4>
+                    <div class="requests">
+                        <div class="info">
+                            <div class="profile-photo">
+                                <img src="imgs/story-3.jpg">
+                            </div>
+                            <div>
+                                <h5>Lbenj Weld Fatima</h5>
+                                <p class="text-muted">
+                                    Mutual friends
+                                </p>
+                            </div>
+                        </div>
+                        <div class="action">
+                            <button class="btn btn-primary">Accept</button>
+                            <button class="btn">Decline</button>
+                        </div>
+                    </div>
+                    <div class="requests">
+                        <div class="info">
+                            <div class="profile-photo">
+                                <img src="imgs/post.jpg">
+                            </div>
+                            <div>
+                                <h5>Marwan Nobi</h5>
+                                <p class="text-muted">
+                                    Mutual friends
+                                </p>
+                            </div>
+                        </div>
+                        <div class="action">
+                            <button class="btn btn-primary">Accept</button>
+                            <button class="btn">Decline</button>
+                        </div>
+                    </div>
+                     <div class="requests">
+                        <div class="info">
+                            <div class="profile-photo">
+                                <img src="imgs/story-3.jpg">
+                            </div>
+                            <div>
+                                <h5>Lbenj Weld Fatima</h5>
+                                <p class="text-muted">
+                                    Mutual friends
+                                </p>
+                            </div>
+                        </div>
+                        <div class="action">
+                            <button class="btn btn-primary">Accept</button>
+                            <button class="btn">Decline</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- -------------------THEME CUSTOMIZATION------------ -->
+    <section class="customize-theme">
+        <div class="card">
+            <h2>Customize your view</h2>
+            <p class="text-muted">Manage your font size, color, and background</p>
+
+            <!-- --------FONT SIZES---------- -->
+            <div class="font-size">
+                <h4>Font Size</h4>
+                <div>
+                    <h6>Aa</h6>
+                    <div class="choose-size">
+                        <span class="font-size-1"></span>
+                        <span class="font-size-2 active"></span>
+                        <span class="font-size-3"></span>
+                        <span class="font-size-4"></span>
+                        <span class="font-size-5"></span>
+                    </div>
+                    <h3>Aa</h3>
+                </div>
+            </div>
+
+            <!-- ----------------PRIMARY COLOR ------------ -->
+            <div class="color">
+                <h4>Color</h4>
+                <div class="choose-color">
+                    <span class="color-1 active"></span>
+                    <span class="color-2"></span>
+                    <span class="color-3"></span>
+                    <span class="color-4"></span>
+                    <span class="color-5"></span>
+                </div>
+            </div>
+            <!-- ---------BACKGROUND COLOR------- -->
+            <div class="background">
+                <h4>Background</h4>
+                <div class="choose-bg">
+                    <div class="bg-1 active">
+                        <span></span>
+                        <h5 for='bg-1'>Light</h5>
+                    </div>
+                    <div class="bg-2">
+                        <span></span>
+                        <h5>Dim</h5>
+                    </div>
+                    <div class="bg-3">
+                        <span></span>
+                        <h5 for='bg-3'>Light Out</h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-------------- js link -------------->
+    <script src="js/main.js"></script>
+</body>
+</html>
